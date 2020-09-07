@@ -1,1 +1,1 @@
-# oriNote.github.io
+# ori 的学习笔记
