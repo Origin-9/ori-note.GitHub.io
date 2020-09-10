@@ -3,10 +3,10 @@
 ## 简易RPC框架实现
 ### 项目介绍
 项目实现了简单的 RPC 框架，其中主要包括四个模块，分别为 rpc-core 模块、rpc-provider 模块、rpc-consumer 模块、rpc-interfaces 模块。
-- rpc-core 模块提供了 RPC 框架的核心实现，其中包括，简单的负载均衡实现、远程通讯实现、配置
-相关的实现、动态代理的实现、序列化的实现。
+- rpc-core 模块提供了 RPC 框架的核心实现，其中包括，简单的负载均衡实现、远程通讯实现、配置 相关的实现、动态代理的实现、序列化的实现。
 - rpc-provider 模块实现 RPC 框架服务端的启动，rpc-consumer 模块实现 RPC 框架客户端的启动。
 - rpc-interfaces 模块提供了 RPC 服务。
+
 ### 项目技术
 Spirng+Netty+ZooKeeper+Protostuff+cglib 
 ### 项目设计
