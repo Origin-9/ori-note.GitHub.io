@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## 项目效果展示
 
-You can use the [editor on GitHub](https://github.com/Origin-9/oriNote.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+项目展示分为项目一（简易RPC框架实现）和项目二（研究生创新能力评价系统）展示，主要展示项目中个人责任内容，展示形式通过截图形式表现。
 
 ### Markdown
 
