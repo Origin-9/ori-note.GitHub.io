@@ -2,9 +2,14 @@
 
 项目展示分为项目一（简易RPC框架实现）和项目二（研究生创新能力评价系统）展示，主要展示项目中个人责任内容，展示形式通过截图形式表现。
 
-### Markdown
+## 简易RPC框架实现
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+项目实现了简单的 RPC 框架，其中主要包括四个模块，分别为 rpc-core 模块、rpc-provider 模块、rpc-consumer 模块、rpc-interfaces 模块。
+1. rpc-core 模块提供了 RPC 框架的核心实现，其中包括，简单的负载均衡实现、远程通讯实现、配置
+相关的实现、动态代理的实现、序列化的实现。
+2. rpc-provider 模块实现 RPC 框架服务端的启动，rpc-consumer 模块实现 RPC 框架客户端的启动。
+3. rpc-interfaces 模块提供了 RPC 服务。
+
 
 ```markdown
 Syntax highlighted code block
