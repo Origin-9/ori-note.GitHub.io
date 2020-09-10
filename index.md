@@ -22,7 +22,7 @@ Spirng+Netty+ZooKeeper+Protostuff+cglib
 ### RPC服务端启动
 ![RPC服务端启动](../images/RPC服务端启动.jpg)
 ### RPC客户端启动及服务调用
-![RPC客户端启动及服务调用](../images/RPC客户端启动及服务调用.jpg.jpg)
+![RPC客户端启动及服务调用](../images/RPC客户端启动及服务调用.jpg)
 ### RPC服务端启动
 ![服务变更通知](../images/服务变更通知.jpg)
 ### Jekyll Themes
