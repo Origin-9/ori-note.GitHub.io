@@ -7,6 +7,14 @@
     * [1.4RPC服务端启动](#1.4)
     * [1.5RPC客户端启动及服务调用](#1.5)
     * [1.6服务变更通知](#1.6)
+    
+* [2.研究生创新能力评价系统](#2)
+    * [2.1项目介绍](#2.1)
+    * [2.2项目技术](#2.2)
+    * [2.3担任角色](#2.3)
+    * [2.4设计技术](#2.4)
+    * [2.5RPC客户端启动及服务调用](#2.5)
+    * [2.6服务变更通知](#2.6)
 <h2 id="1">简易RPC框架实现</h2>
 <h3 id="1.1">项目介绍</h3>
 项目实现了简单的 RPC 框架，其中主要包括四个模块，分别为 rpc-core 模块、rpc-provider 模块、rpc-consumer 模块、rpc-interfaces 模块。
@@ -32,10 +40,30 @@ Spirng+Netty+ZooKeeper+Protostuff+cglib
 ![RPC客户端启动及服务调用](../images/RPC客户端启动及服务调用.jpg)
 <h3 id="1.6">服务变更通知</h3>
 ![服务变更通知](../images/服务变更通知.jpg)
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Origin-9/oriNote.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<h2 id="2">研究生创新能力评价系统</h2>
+<h3 id="2.1">项目介绍</h3>
+项目用于课题评分统计，系统主要分为：权限模块模块，信息管理模块，评分模块，分数计算展示模块，
+项目已经部署学校服务器供电气学院使用。
+- 权限管理模块：通过 Shiro 实现权限管理，系统权限分为：超级管理员，教师，学生。
+- 信息管理模块：录入课题老师和学生信息，在系统中进行管理。
+- 评分模块：分为教师评分、同年级评分、同课题评分。
+- 分数计算展示模块：将各评分内容通过一定权值计算生成个人成绩
 
-### Support or Contact
+<h3 id="2.2">项目技术</h3>
+Spirng+SpringMVC+MyBatis+MySQL+Maven+RESTful API+Swagger+G2
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<h3 id="2.3">担任角色</h3>
+- 需求简单分析以及架构设计
+- 后端接口设计
+- 数据库部份表以及索引设计
+- 完成系统评分模块以及分数计算展示模块 JAVA 后端接口开发
+
+<h3 id="2.4">设计技术</h3>
+- 使用 Swagger 完成接口文档的编写
+- 使用 RESTful API 规范完成接口的编写，交互 JSON 数据
+- 数据库表，索引的设计，完成 SQL 优化来加快数据的查询
+- 通过 Maven 完成项目管理和构建
+- 使用 SSM 框架开发，通过 MVC 模式完成 Web 服务器的搭建
+<h3 id="2.5">RPC客户端启动及服务调用</h3>
+
