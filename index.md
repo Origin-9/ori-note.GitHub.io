@@ -9,6 +9,7 @@
 
 ### 项目技术
 Spirng+Netty+ZooKeeper+Protostuff+cglib 
+
 ### 项目设计
 - 使用 Spring IoC，将对象之间的相互依赖关系交给 IoC 容器管理，并由 IoC 容器完成对象的注入。
 - 使用 Spring XML schema，实现了用 xml 配置来使用 RPC 框架。
@@ -17,9 +18,13 @@ Spirng+Netty+ZooKeeper+Protostuff+cglib
 - ZooKeeper 作为服务的注册中心，实现服务的暴露和引用。
 - 通过 ZooKeeper 的 Watcher 机制，实现客户端对服务变更的监听。
 - 使用 cglib 作为动态代理实现方案，log4j 作为打印和输出方案，Protostuff 作为序列化实现方案。
+
 ### RPC服务端启动
 ![RPC服务端启动](../images/RPC服务端启动.jpg)
-
+### RPC客户端启动及服务调用
+![RPC客户端启动及服务调用](../images/RPC客户端启动及服务调用.jpg.jpg)
+### RPC服务端启动
+![服务变更通知](../images/服务变更通知.jpg)
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Origin-9/oriNote.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
